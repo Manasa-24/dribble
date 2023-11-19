@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Filter</title>
+  <link rel="stylesheet" href="filter.css">
+</head>
+<body>
+  <div class="filter-buttons">
+    <button onclick="filter('popularity')">Popularity</button>
+    <button onclick="filter('recommended')">Recommended</button>
+    <button onclick="showAll()">All</button>
+  </div>
+  <div class="image-container">
+    <img class="image popularity" src="ttps://cdn.dribbble.com/users/39609/screenshots/16178448/media/6dde09fbdb671d3daea3a867979171fd.jpg?resize=450x338&vertical=center" data-popularity="high">
+    <img class="image recommended" src="image2.jpg" data-recommendation="high">
+    <img class="image popularity" src="image3.jpg" data-popularity="medium">
+    <img class="image recommended" src="image4.jpg" data-recommendation="low">
+  <script src="filter.js"></script>
+</body>
+</html>
